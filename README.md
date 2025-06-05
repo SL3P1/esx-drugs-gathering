@@ -1,49 +1,55 @@
-Drug Farming Script for FiveM
-This script adds drug farming zones and items for a FiveM server using the ox_lib, ox_target, and ox_inventory dependencies.
+# Drug Farming Script for FiveM
 
-Features
-Spawn zones for cocaine, weed, mushrooms, and poppies
+This script adds drug farming zones and collectible items for a FiveM server.  
+It supports cocaine, weed, mushrooms, and poppies with configurable spawn zones and counts.
 
-Collectible props and items configured with spawn counts
+## Features
 
-Uses animations for planting/collecting
+- Spawn zones for multiple drugs with props and items  
+- Configurable spawn counts and zones  
+- Animations for planting and collecting  
+- Compatible with ox_lib, ox_target, and ox_inventory  
 
-Compatible with ox_lib, ox_target, and ox_inventory
+## Dependencies
 
-Dependencies
-Make sure you have these resources installed and started on your server before using this script:
+Make sure these resources are installed and running on your server:
 
-ox_lib
+- [ox_lib](https://github.com/overextended/ox_lib)  
+- [ox_target](https://github.com/overextended/ox_target)  
+- [ox_inventory](https://github.com/overextended/ox_inventory)  
 
-ox_target
+## Installation
 
-ox_inventory
+1. Clone or download this repository into your server’s `resources` folder.  
+2. Ensure dependencies (`ox_lib`, `ox_target`, `ox_inventory`) are installed and started.  
+3. Add to your `server.cfg`:
 
-Installation
-Download or clone this repository into your server resources folder.
+    ```
+    start ox_lib
+    start ox_target
+    start ox_inventory
+    start your_script_name
+    ```
 
-Ensure the dependencies (ox_lib, ox_target, ox_inventory) are installed and started.
+4. Configure spawn zones, items, and other settings inside the script as needed.
 
-Add this script to your server.cfg:
+## Usage
 
-sql
-Copy
-start ox_lib
-start ox_target
-start ox_inventory
-start your_script_name
-Configure zones, items, and other settings inside the script as needed.
+Players can harvest plants in designated zones and collect corresponding items.
 
-Configuration
-Drug zones and spawn settings are defined in the Config table.
+## Tracking Downloads
 
-Item names and labels can be customized.
+You can track how many people download this script by publishing release versions:  
 
-Animation and cooldown times can be adjusted for gameplay balance.
+- Upload a packaged ZIP file in the **Releases** section of this repository.  
+- GitHub provides download counts for each release asset.  
+- Check **Insights → Traffic** for repository visit and clone stats.
 
-Usage
-Players can harvest plants in the configured zones and receive the corresponding items in their inventory.
+## License
 
-License
-MIT License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+Feel free to open issues or submit pull requests!
 
