@@ -37,14 +37,6 @@ Make sure these resources are installed and running on your server:
 
 Players can harvest plants in designated zones and collect corresponding items.
 
-## Tracking Downloads
-
-You can track how many people download this script by publishing release versions:  
-
-- Upload a packaged ZIP file in the **Releases** section of this repository.  
-- GitHub provides download counts for each release asset.  
-- Check **Insights → Traffic** for repository visit and clone stats.
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
